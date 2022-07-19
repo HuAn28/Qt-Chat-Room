@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ClientDialog</class>
+ <widget class="QDialog" name="ClientDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>639</width>
+    <height>450</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>聊天室客户端</string>
+  </property>
+  <widget class="QListWidget" name="listWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>391</width>
+     <height>431</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="sendButton">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>410</y>
+     <width>220</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>发送</string>
+   </property>
+   <property name="checkable">
+    <bool>false</bool>
+   </property>
+   <property name="autoDefault">
+    <bool>true</bool>
+   </property>
+   <property name="default">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="messageEdit">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>370</y>
+     <width>220</width>
+     <height>30</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="connectButton">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>20</y>
+     <width>220</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>连接服务器</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>415</x>
+     <y>80</y>
+     <width>100</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>服务器地址：</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="serverIpEdit">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>110</y>
+     <width>220</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>127.0.0.1</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>415</x>
+     <y>160</y>
+     <width>100</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>服务器端口：</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="serverPortEdit">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>190</y>
+     <width>220</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>8080</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>415</x>
+     <y>240</y>
+     <width>100</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>聊天室昵称：</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="usernameEdit">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>270</y>
+     <width>220</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Jack</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
